@@ -1,0 +1,121 @@
+body {
+
+    --dye-accent: #1a1a1a;
+    --dye-bg: #121212;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    color: white;
+    background-color: var(--dye-bg);
+
+}
+
+.card {
+
+    width: 400px;
+
+    padding: 8px;
+
+    border-radius: 4px;
+
+    background-color: var(--dye-bg);
+
+    transition: transform 0.1s ease, background 0.2s;
+
+}
+
+.tag-list {
+
+    width: 400px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+}
+
+.tag-list>li {
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    padding: 8px;
+    text-align: center;
+    place-items: center;
+
+    border-radius: 4px;
+
+    transition: transform 0.1s ease, background 0.2s;
+
+}
+
+li:hover {
+
+    background-color: var(--dye-accent);
+
+}
+
+.profile {
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+}
+
+
+
+.proj {
+
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+
+    border-radius: 4px;
+
+    transition: transform 0.1s ease, background 0.2s;
+
+}
+
+.btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    background-color: var(--dye-accent);
+}
+
+.hove:hover {
+    background-color: var(--dye-accent);
+}
+
+p,
+h2 {
+
+    line-height: 1.5;
+    margin: 0px;
+
+}
+
+img {
+
+    justify-content: center;
+    margin-bottom: 8px;
+
+}
